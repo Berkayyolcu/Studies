@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Refresh Butonu Yapma</title>
+
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div class="p-3  border w-25 bg-light m-auto mt-5">
+
+                     <!-- sayfa baslığı-->
+                    <h3 class="text-center mt-5 text-danger">Sayfayı Yenilemek İçin Tıklayın..</h3>
+                      
+                     <!-- sayfa yenileme butonu  -->
+					<input type="button" class="buton mt-5 mb-5" value="Sayfayı Yenile" onclick="refresh()" />
+
+				</div>
+			</div>	
+		</div>
+	</div>
+
+
+
+
+<!-- sayfayı yenileme kodu -->
+
+	<script type="text/javascript">
+		function refresh(){
+			location.reload();
+		}
+	</script>
+
+</body>
+</html>
