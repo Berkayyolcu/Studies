@@ -1,0 +1,24 @@
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\bin\Debug\sayfa gecişleri.exe.config
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\bin\Debug\sayfa gecişleri.exe
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\bin\Debug\sayfa gecişleri.pdb
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\obj\Debug\sayfa gecişleri.csproj.AssemblyReference.cache
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\obj\Debug\sayfa gecişleri.csproj.SuggestedBindingRedirects.cache
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\obj\Debug\sayfa_gecişleri.Form1.resources
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\obj\Debug\sayfa_gecişleri.Properties.Resources.resources
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\obj\Debug\sayfa gecişleri.csproj.GenerateResource.cache
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\obj\Debug\sayfa gecişleri.csproj.CoreCompileInputs.cache
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\obj\Debug\sayfa gecişleri.exe
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\obj\Debug\sayfa gecişleri.pdb
+C:\Users\Berkay YOLCU\source\repos\sayfa gecişleri\sayfa gecişleri\obj\Debug\sayfa_gecişleri.Form2.resources
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\bin\Debug\sayfa gecişleri.exe.config
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\bin\Debug\sayfa gecişleri.exe
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\bin\Debug\sayfa gecişleri.pdb
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\obj\Debug\sayfa gecişleri.csproj.AssemblyReference.cache
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\obj\Debug\sayfa gecişleri.csproj.SuggestedBindingRedirects.cache
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\obj\Debug\sayfa_gecişleri.Form1.resources
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\obj\Debug\sayfa_gecişleri.Form2.resources
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\obj\Debug\sayfa_gecişleri.Properties.Resources.resources
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\obj\Debug\sayfa gecişleri.csproj.GenerateResource.cache
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\obj\Debug\sayfa gecişleri.csproj.CoreCompileInputs.cache
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\obj\Debug\sayfa gecişleri.exe
+C:\Users\Berkay YOLCU\Desktop\Çalışmalar\C#\C# - switching between forms with c#\sayfa gecişleri\obj\Debug\sayfa gecişleri.pdb
