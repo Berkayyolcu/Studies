@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hide and Show Button</title>
+
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container  mt-5 m-auto">
+		<div class="row">
+			<div class="col ">
+
+
+				<div class="p-3 border bg-light m-auto mt-5 w-50 ">
+
+					<!-- Baslık -->
+					<h1 class="text-center text-danger mt-5 ">Hide and Show</h1>
+
+					<!-- Baslık Altına Cizgi -->
+					<div class="text-success m-auto mb-5 w-50">
+						<hr>
+					</div>
+
+					<!-- Gizlenecek Yazı Metni -->
+					<p class="text-center text-dark mb-5" id="text">Lorem Ipsum , baskı ve dizgi endüstrisinin basit bir sahte metnidir. </p>
+
+
+					<!-- Hide and Show Button -->
+					<div class="d-flex justify-content-center mb-5">
+
+						<button type="button" class="btn btn-warning" id="hide">Hide</button>
+						<button type="button" class="btn btn-warning ms-3" id="show">Show</button>
+
+					</div>
+
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+
+        // Hide Butonu
+
+        $(document).ready(function(){
+        	$("#hide").click(function(){
+        		$("#text").hide();
+        	});
+        });
+
+
+        // Show Butonu
+
+        $(document).ready(function(){
+        	$("#show").click(function(){
+        		$("#text").show();
+        	});
+        });
+
+    </script>
+
+
+</body>
+</html>
