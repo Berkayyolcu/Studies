@@ -1,0 +1,11 @@
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\bin\Debug\WindowsFormsApp5.exe.config
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\bin\Debug\WindowsFormsApp5.exe
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\bin\Debug\WindowsFormsApp5.pdb
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\obj\Debug\four operations.csproj.AssemblyReference.cache
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\obj\Debug\four operations.csproj.SuggestedBindingRedirects.cache
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\obj\Debug\WindowsFormsApp5.Properties.Resources.resources
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\obj\Debug\four operations.csproj.GenerateResource.cache
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\obj\Debug\four operations.csproj.CoreCompileInputs.cache
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\obj\Debug\WindowsFormsApp5.exe
+C:\Users\Berkay YOLCU\Desktop\Yeni klasör\C# - four operations\four operations\obj\Debug\WindowsFormsApp5.pdb
