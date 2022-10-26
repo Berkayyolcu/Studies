@@ -1,0 +1,19 @@
+input{
+width:200px;
+height:100px;
+max-width:100%;
+background:#00bfff;
+color:black;
+cursor:pointer;
+border:none;
+font-weight:bold;
+margin:25px auto 0px auto;
+display:block;
+}
+
+input:hover{
+width:200px;
+height:100px;
+background:#87ceeb;
+color:black;
+}

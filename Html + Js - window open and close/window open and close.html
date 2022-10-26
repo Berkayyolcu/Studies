@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Window open and close</title>
+
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div class="p-3  border w-25 bg-light m-auto mt-5">
+
+					<!-- sayfa baslıgı -->
+					<h2 class="text-center text-danger mt-5">Windows Open and Close</h2>
+
+					<!-- yeni sayfa acma butonu -->
+					<input type="button" class="mt-5" value="Pencereyi Ac" onclick="ac()"> 
+
+					<!-- bulundugu sayfa kapatır -->
+					<input type="button" class="mb-5" value="Pencereyi Kapat" onclick="kapat()"/> 
+
+
+				</div>
+			</div>	
+		</div>
+	</div>
+
+
+
+	<script type="text/JavaScript">
+		var adres="http://www.google.com"; 
+// adres adında bir değisken olusturup yönlendirecegimiz url'yi yazıyoruz
+
+var pencere;
+// pencere adında bir degisken olusturuyoruz
+
+function ac(){ 
+// fonksiyonumzu olusturuyoruz 
+
+pencere=window.open(adres);
+/*pencere degiskenimize window.open methotumuzu  atıyoruz  
+sonrasında yukarıdaki adres degiskenimizi belirtip icine yazdıgımız 
+url'ye yeni bir pencere acar */
+}
+
+function kapat(){ //  tekrar fonksiyonumzu olusturuyoruz 
+	pencere=window.close(adres);
+/*pencere degiskenimize yazıp icinede window.close methotumuzu atıyoruz
+sonra bu ilgili pencereyi kapatır */
+}
+</script>
+
+
+</body>
+</html>
