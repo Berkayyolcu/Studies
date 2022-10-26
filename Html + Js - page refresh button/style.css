@@ -1,0 +1,17 @@
+.buton{
+	width:350px;
+	max-width:100%;
+	font-weight:bold;
+	margin:25px auto 0px auto;
+	display:block;
+	background:#f4a460;
+	border:none;
+	border-radius:6px;
+}
+
+.buton:hover{
+color:#ffffff;
+opacity:0.9;
+}
+
+
