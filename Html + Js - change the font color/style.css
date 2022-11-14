@@ -1,0 +1,29 @@
+.writing
+{
+width:220px;
+height:100%;
+max-width:100%;
+border-style:solid;
+border-width:2px;
+border-color:#1E90FF;
+margin:100px auto 50px auto;
+}
+
+.writing b
+{	
+text-align:center;
+margin:25px;
+display:block;
+}
+
+.writing input 
+{
+margin:5px 2px 15px 2px;
+font-weight:bold;		
+}
+
+.writing input[type=button]:focus
+{
+background-color:#f0f8ff;
+}
+
