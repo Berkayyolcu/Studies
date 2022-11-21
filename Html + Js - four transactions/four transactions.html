@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dört İşlem</title>
+
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+	<script type="text/javascript" src="calculator.js"></script>
+
+
+	<style type="text/css">
+		
+		.calculator
+		{
+			max-width:100%;
+			width:200px;
+			margin: 100px auto 0px auto;
+			display:block;	  
+		}
+		.calculator input[type=text]
+		{
+			margin:0px auto 0px auto;
+			display:block;	
+		}
+
+		.calculator input[type=text]:focus
+		{
+			outline:none;
+			border: 0.50px solid black;
+			border-left: 5px solid blue;
+			margin-left:10px;
+		}
+
+		.calculator input[type=button]
+		{
+			margin:0px 6px 0px 6px;
+			font-weight:bold;
+		}
+
+		.calculator td hr 
+		{
+			margin-left:2px;	
+		}
+	</style>
+
+
+</head>
+<body>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div class="p-3  border w-25 bg-light m-auto mt-5">
+
+					<!-- sayfa baslığı-->
+					<h3 class="text-center mt-5 text-danger">Dört İşlem</h3>
+
+					<!-- dört işlem  -->
+					<div class="calculator mb-5">
+						<table>
+							<tr>
+								<td><input type="text" name="s1" placeholder=" Birinci sayı" id="s1"/></td>
+							</tr>
+							<tr>
+								<td><input type="text" name="s2" placeholder=" İkinci sayı" id="s2"/></td>
+							</tr>
+							<tr>
+								<td><hr></td>
+							</tr>
+							<tr>
+								<td>
+									<input type="button" value=" + " onclick="toplama()"/> 
+									<input type="button" value=" - " onclick="cıkarma()"/>
+									<input type="button" value=" * " onclick="carpma()"/>
+									<input type="button" value=" / " onclick="bölme()"/>
+									<hr>
+									<input type="button"  style="width:93%; margin:20px auto 0px auto; display:block;" value="Temizle" onclick="temizle()"/>
+								</td>
+							</tr>
+							<tr>
+								<td><hr><input type="text" placeholder="sonuc" id="sonuc" readonly></td>
+							</tr>
+						</table>
+					</div>
+
+
+				</div>
+			</div>	
+		</div>
+	</div>
+
+
+</body>
+</html>
