@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bugünün Tarihi</title>
+
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	<!-- Style link -->
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	
+	<!-- date link -->
+	<script type="text/javascript" src="date.js"></script>
+
+
+	<style type="text/css">
+
+		.tabBlok2
+		{
+			background-color:#1c6071;
+			border:solid 0px #FFA54F;
+			border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+			max-width:150px;
+			height:50px;
+			width:100%;
+			overflow:hidden;
+			display:block;
+			margin:40px auto 0px  auto;
+		}
+
+		.date
+		{
+			vertical-align:middle;
+			font-family:Orbitron;
+			font-size:25px;
+			font-weight:normal;
+			color:#FFF;
+			padding:0 px;
+			display: block;
+			margin:7px auto 0px auto;
+			text-align: center;
+		}
+
+	</style>
+
+</head>
+
+<body onload="dijitalSaat();">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div class="p-3  border w-25 bg-light m-auto mt-5 ">
+
+					<!-- sayfa baslığı-->
+					<h3 class="text-center mt-5 text-danger">Bugünün Tarihi</h3>
+
+					<!-- tarih -->
+					<div class="tabBlok2 mb-5">
+						<span class="date" id="dt_date"></span>
+					</div>
+
+				</div>
+			</div>	
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+
+		var bugun = new Date();   // date() ile tarih nesnesi oluşturuldu.
+		var date = bugun.getDate()+'.'+(bugun.getMonth()+1)+'.'+bugun.getFullYear();
+		document.getElementById('dt_date').innerHTML = date;
+
+        // getDate  günün tarihini verir
+        // getMonth ay bilgisin verir
+        // getFullYear yıl bilgisini verir
+
+	</script>
+
+
+</body>
+</html>
