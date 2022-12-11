@@ -1,0 +1,73 @@
+
+/* Menü Bölümü */
+
+.men{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.men a {
+    display: block;
+    color: #000;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+
+.men a:focus {
+    background-color: #e74c3c;
+    color: white;
+}
+
+
+.men a:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+
+
+
+/* Sidebar Bölümü */
+
+.sidebar{
+width:100%;
+height:100px;
+background-color: #DC3535;
+
+}
+
+.w3-button {
+width:50px;
+height:50px;
+background: white;
+color: #696969;
+font-size: 30px;
+border:none;
+cursor: pointer;
+margin:25px 0px 0px 10px;
+}
+
+.w3-bar-item{
+
+width:50px;
+height:50px;
+background: white;
+color: #696969;
+font-size: 40px;
+margin:-50px 0px 0px 10px;
+display:block;
+position:absolute;
+border:none;
+cursor: pointer;
+
+}
+
+.w3-sidebar{
+width:250px;
+height:500px;
+background-color:#f2f2f2;
+position: absolute;
+border-radius:20px;
+box-shadow: 10px 10px 10px black; 
+}
